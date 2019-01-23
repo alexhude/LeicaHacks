@@ -1,0 +1,3 @@
+Documentation is built in this directory upon make doc
+
+Optionally, you can run the Doxyfile yourself

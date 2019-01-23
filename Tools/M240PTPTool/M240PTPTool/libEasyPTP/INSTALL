@@ -1,0 +1,9 @@
+Basic Installation Instructions
+===============================
+
+libEasyPTP, at the moment, requires no configuration script.  Simply run:
+make install
+To build and install the library.  This will install to /usr.  If you would
+like to install to a different location, you can edit Makefile.  This 
+command will most likely need to be run as root.
+

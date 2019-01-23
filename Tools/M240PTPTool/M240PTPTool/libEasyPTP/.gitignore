@@ -1,0 +1,26 @@
+# Compiled Object files
+*.slo
+*.lo
+*.o
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+
+# Temporary files
+*~
+
+# Dependency file from Makefile
+.depend
+
+# Don't commmit the netbeans project
+nbproject
+
+# Doxygen generated files
+doc/html
+doc/latex

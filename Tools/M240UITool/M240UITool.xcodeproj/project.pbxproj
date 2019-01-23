@@ -1,0 +1,341 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA75223821B330F900FE11D4 /* M240UIDescContainer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA75223621B330F900FE11D4 /* M240UIDescContainer.cpp */; };
+		FA75223921B330F900FE11D4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA75223721B330F900FE11D4 /* main.cpp */; };
+		FA75224C21B3313F00FE11D4 /* EasyBMP.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA75223F21B3313F00FE11D4 /* EasyBMP.cpp */; };
+		FA75224D21B3313F00FE11D4 /* makefile in Sources */ = {isa = PBXBuildFile; fileRef = FA75224321B3313F00FE11D4 /* makefile */; };
+		FA75224F21B3313F00FE11D4 /* lodepng.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA75224B21B3313F00FE11D4 /* lodepng.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FA75222821B330CB00FE11D4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FA75222A21B330CB00FE11D4 /* M240UITool */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = M240UITool; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA75223421B330F900FE11D4 /* M240UIDesc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M240UIDesc.h; sourceTree = "<group>"; };
+		FA75223521B330F900FE11D4 /* M240UIDescContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M240UIDescContainer.h; sourceTree = "<group>"; };
+		FA75223621B330F900FE11D4 /* M240UIDescContainer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = M240UIDescContainer.cpp; sourceTree = "<group>"; };
+		FA75223721B330F900FE11D4 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		FA75223D21B3313F00FE11D4 /* EasyBMP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyBMP.h; sourceTree = "<group>"; };
+		FA75223E21B3313F00FE11D4 /* EasyBMP_DataStructures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyBMP_DataStructures.h; sourceTree = "<group>"; };
+		FA75223F21B3313F00FE11D4 /* EasyBMP.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EasyBMP.cpp; sourceTree = "<group>"; };
+		FA75224021B3313F00FE11D4 /* EasyBMP_VariousBMPutilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyBMP_VariousBMPutilities.h; sourceTree = "<group>"; };
+		FA75224221B3313F00FE11D4 /* EasyBMPtext.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = EasyBMPtext.bmp; sourceTree = "<group>"; };
+		FA75224321B3313F00FE11D4 /* makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = makefile; sourceTree = "<group>"; };
+		FA75224421B3313F00FE11D4 /* EasyBMPsample.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EasyBMPsample.cpp; sourceTree = "<group>"; };
+		FA75224521B3313F00FE11D4 /* EasyBMPbackground.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = EasyBMPbackground.bmp; sourceTree = "<group>"; };
+		FA75224621B3313F00FE11D4 /* EasyBMP_BMP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyBMP_BMP.h; sourceTree = "<group>"; };
+		FA75224721B3313F00FE11D4 /* EasyBMP_ChangeLog.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = EasyBMP_ChangeLog.txt; sourceTree = "<group>"; };
+		FA75224821B3313F00FE11D4 /* BSD_(revised)_license.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "BSD_(revised)_license.txt"; sourceTree = "<group>"; };
+		FA75224A21B3313F00FE11D4 /* lodepng.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lodepng.h; sourceTree = "<group>"; };
+		FA75224B21B3313F00FE11D4 /* lodepng.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lodepng.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA75222721B330CB00FE11D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA75222121B330CA00FE11D4 = {
+			isa = PBXGroup;
+			children = (
+				FA75222C21B330CB00FE11D4 /* M240UITool */,
+				FA75222B21B330CB00FE11D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA75222B21B330CB00FE11D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA75222A21B330CB00FE11D4 /* M240UITool */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA75222C21B330CB00FE11D4 /* M240UITool */ = {
+			isa = PBXGroup;
+			children = (
+				FA75223C21B3313F00FE11D4 /* EasyBMP_1.06 */,
+				FA75224921B3313F00FE11D4 /* LodePNG */,
+				FA75223421B330F900FE11D4 /* M240UIDesc.h */,
+				FA75223621B330F900FE11D4 /* M240UIDescContainer.cpp */,
+				FA75223521B330F900FE11D4 /* M240UIDescContainer.h */,
+				FA75223721B330F900FE11D4 /* main.cpp */,
+			);
+			path = M240UITool;
+			sourceTree = "<group>";
+		};
+		FA75223C21B3313F00FE11D4 /* EasyBMP_1.06 */ = {
+			isa = PBXGroup;
+			children = (
+				FA75223D21B3313F00FE11D4 /* EasyBMP.h */,
+				FA75223E21B3313F00FE11D4 /* EasyBMP_DataStructures.h */,
+				FA75223F21B3313F00FE11D4 /* EasyBMP.cpp */,
+				FA75224021B3313F00FE11D4 /* EasyBMP_VariousBMPutilities.h */,
+				FA75224121B3313F00FE11D4 /* sample */,
+				FA75224621B3313F00FE11D4 /* EasyBMP_BMP.h */,
+				FA75224721B3313F00FE11D4 /* EasyBMP_ChangeLog.txt */,
+				FA75224821B3313F00FE11D4 /* BSD_(revised)_license.txt */,
+			);
+			path = EasyBMP_1.06;
+			sourceTree = "<group>";
+		};
+		FA75224121B3313F00FE11D4 /* sample */ = {
+			isa = PBXGroup;
+			children = (
+				FA75224221B3313F00FE11D4 /* EasyBMPtext.bmp */,
+				FA75224321B3313F00FE11D4 /* makefile */,
+				FA75224421B3313F00FE11D4 /* EasyBMPsample.cpp */,
+				FA75224521B3313F00FE11D4 /* EasyBMPbackground.bmp */,
+			);
+			path = sample;
+			sourceTree = "<group>";
+		};
+		FA75224921B3313F00FE11D4 /* LodePNG */ = {
+			isa = PBXGroup;
+			children = (
+				FA75224A21B3313F00FE11D4 /* lodepng.h */,
+				FA75224B21B3313F00FE11D4 /* lodepng.cpp */,
+			);
+			path = LodePNG;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA75222921B330CB00FE11D4 /* M240UITool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA75223121B330CB00FE11D4 /* Build configuration list for PBXNativeTarget "M240UITool" */;
+			buildPhases = (
+				FA75222621B330CB00FE11D4 /* Sources */,
+				FA75222721B330CB00FE11D4 /* Frameworks */,
+				FA75222821B330CB00FE11D4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = M240UITool;
+			productName = M240UITool;
+			productReference = FA75222A21B330CB00FE11D4 /* M240UITool */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA75222221B330CA00FE11D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Alexander Hude";
+				TargetAttributes = {
+					FA75222921B330CB00FE11D4 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = FA75222521B330CA00FE11D4 /* Build configuration list for PBXProject "M240UITool" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FA75222121B330CA00FE11D4;
+			productRefGroup = FA75222B21B330CB00FE11D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA75222921B330CB00FE11D4 /* M240UITool */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA75222621B330CB00FE11D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA75224C21B3313F00FE11D4 /* EasyBMP.cpp in Sources */,
+				FA75223921B330F900FE11D4 /* main.cpp in Sources */,
+				FA75224D21B3313F00FE11D4 /* makefile in Sources */,
+				FA75224F21B3313F00FE11D4 /* lodepng.cpp in Sources */,
+				FA75223821B330F900FE11D4 /* M240UIDescContainer.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FA75222F21B330CB00FE11D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FA75223021B330CB00FE11D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FA75223221B330CB00FE11D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FA75223321B330CB00FE11D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA75222521B330CA00FE11D4 /* Build configuration list for PBXProject "M240UITool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA75222F21B330CB00FE11D4 /* Debug */,
+				FA75223021B330CB00FE11D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA75223121B330CB00FE11D4 /* Build configuration list for PBXNativeTarget "M240UITool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA75223221B330CB00FE11D4 /* Debug */,
+				FA75223321B330CB00FE11D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA75222221B330CA00FE11D4 /* Project object */;
+}

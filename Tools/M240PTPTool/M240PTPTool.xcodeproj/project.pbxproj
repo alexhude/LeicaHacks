@@ -1,0 +1,575 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAAB04EA21C12A9A005FBF30 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAAB04E921C12A9A005FBF30 /* main.cpp */; };
+		FAAB051421C12AEC005FBF30 /* PTPContainer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAAB050C21C12AD9005FBF30 /* PTPContainer.cpp */; };
+		FAAB051521C12AEC005FBF30 /* PTPUSB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAAB050D21C12AD9005FBF30 /* PTPUSB.cpp */; };
+		FAAB051621C12AEC005FBF30 /* PTPCamera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAAB050E21C12AD9005FBF30 /* PTPCamera.cpp */; };
+		FAAB051721C12AEC005FBF30 /* PTPBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAAB051021C12AD9005FBF30 /* PTPBase.cpp */; };
+		FAAB051A21C12C2B005FBF30 /* libusb-1.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FAAB051921C12C2B005FBF30 /* libusb-1.0.a */; };
+		FAAB051C21C12C5F005FBF30 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAAB051B21C12C5F005FBF30 /* CoreFoundation.framework */; };
+		FAAB051E21C12C7B005FBF30 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAAB051D21C12C7B005FBF30 /* IOKit.framework */; };
+		FAAB054621C12CD5005FBF30 /* LeicaCamera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAAB054421C12CD5005FBF30 /* LeicaCamera.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FAAB04E421C12A99005FBF30 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FAAB04E621C12A9A005FBF30 /* M240PTPTool */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = M240PTPTool; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAAB04E921C12A9A005FBF30 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		FAAB04F221C12AD8005FBF30 /* INSTALL */ = {isa = PBXFileReference; lastKnownFileType = text; path = INSTALL; sourceTree = "<group>"; };
+		FAAB04F321C12AD8005FBF30 /* AUTHORS */ = {isa = PBXFileReference; lastKnownFileType = text; path = AUTHORS; sourceTree = "<group>"; };
+		FAAB04F421C12AD8005FBF30 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		FAAB04F821C12AD8005FBF30 /* ptp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ptp.h; sourceTree = "<group>"; };
+		FAAB04F921C12AD8005FBF30 /* live_view.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = live_view.h; sourceTree = "<group>"; };
+		FAAB04FA21C12AD8005FBF30 /* PTPErrors.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PTPErrors.hpp; sourceTree = "<group>"; };
+		FAAB04FB21C12AD8005FBF30 /* CHDKCamera.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CHDKCamera.hpp; sourceTree = "<group>"; };
+		FAAB04FC21C12AD8005FBF30 /* PTPBase.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PTPBase.hpp; sourceTree = "<group>"; };
+		FAAB04FD21C12AD8005FBF30 /* PTPCamera.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PTPCamera.hpp; sourceTree = "<group>"; };
+		FAAB04FE21C12AD8005FBF30 /* LVData.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LVData.hpp; sourceTree = "<group>"; };
+		FAAB04FF21C12AD8005FBF30 /* PTPContainer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PTPContainer.hpp; sourceTree = "<group>"; };
+		FAAB050021C12AD8005FBF30 /* IPTPComm.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = IPTPComm.hpp; sourceTree = "<group>"; };
+		FAAB050121C12AD8005FBF30 /* PTPUSB.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PTPUSB.hpp; sourceTree = "<group>"; };
+		FAAB050221C12AD8005FBF30 /* libeasyptp.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = libeasyptp.hpp; sourceTree = "<group>"; };
+		FAAB050421C12AD8005FBF30 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		FAAB050521C12AD8005FBF30 /* COPYING.LESSER */ = {isa = PBXFileReference; lastKnownFileType = text; path = COPYING.LESSER; sourceTree = "<group>"; };
+		FAAB050621C12AD8005FBF30 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		FAAB050721C12AD9005FBF30 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		FAAB050821C12AD9005FBF30 /* COPYING */ = {isa = PBXFileReference; lastKnownFileType = text; path = COPYING; sourceTree = "<group>"; };
+		FAAB050921C12AD9005FBF30 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		FAAB050B21C12AD9005FBF30 /* LVData.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LVData.cpp; sourceTree = "<group>"; };
+		FAAB050C21C12AD9005FBF30 /* PTPContainer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PTPContainer.cpp; sourceTree = "<group>"; };
+		FAAB050D21C12AD9005FBF30 /* PTPUSB.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PTPUSB.cpp; sourceTree = "<group>"; };
+		FAAB050E21C12AD9005FBF30 /* PTPCamera.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PTPCamera.cpp; sourceTree = "<group>"; };
+		FAAB050F21C12AD9005FBF30 /* CHDKCamera.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CHDKCamera.cpp; sourceTree = "<group>"; };
+		FAAB051021C12AD9005FBF30 /* PTPBase.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PTPBase.cpp; sourceTree = "<group>"; };
+		FAAB051221C12AD9005FBF30 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		FAAB051321C12AD9005FBF30 /* Doxyfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Doxyfile; sourceTree = "<group>"; };
+		FAAB051921C12C2B005FBF30 /* libusb-1.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libusb-1.0.a"; path = "M240PTPTool/libusb/1.0.22/lib/libusb-1.0.a"; sourceTree = "<group>"; };
+		FAAB051B21C12C5F005FBF30 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		FAAB051D21C12C7B005FBF30 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		FAAB052121C12C98005FBF30 /* INSTALL_RECEIPT.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = INSTALL_RECEIPT.json; sourceTree = "<group>"; };
+		FAAB052321C12C98005FBF30 /* libusb.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = libusb.rb; sourceTree = "<group>"; };
+		FAAB052421C12C98005FBF30 /* ChangeLog */ = {isa = PBXFileReference; lastKnownFileType = text; path = ChangeLog; sourceTree = "<group>"; };
+		FAAB052521C12C98005FBF30 /* AUTHORS */ = {isa = PBXFileReference; lastKnownFileType = text; path = AUTHORS; sourceTree = "<group>"; };
+		FAAB052821C12C98005FBF30 /* libusb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = libusb.h; sourceTree = "<group>"; };
+		FAAB052921C12C98005FBF30 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		FAAB052A21C12C98005FBF30 /* TODO */ = {isa = PBXFileReference; lastKnownFileType = text; path = TODO; sourceTree = "<group>"; };
+		FAAB052B21C12C98005FBF30 /* COPYING */ = {isa = PBXFileReference; lastKnownFileType = text; path = COPYING; sourceTree = "<group>"; };
+		FAAB052C21C12C98005FBF30 /* NEWS */ = {isa = PBXFileReference; lastKnownFileType = text; path = NEWS; sourceTree = "<group>"; };
+		FAAB052E21C12C98005FBF30 /* libusb-1.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = "libusb-1.0.0.dylib"; sourceTree = "<group>"; };
+		FAAB052F21C12C98005FBF30 /* libusb-1.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libusb-1.0.a"; sourceTree = "<group>"; };
+		FAAB053321C12C98005FBF30 /* sam3u_benchmark.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = sam3u_benchmark.c; sourceTree = "<group>"; };
+		FAAB053421C12C98005FBF30 /* ezusb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ezusb.h; sourceTree = "<group>"; };
+		FAAB053621C12C98005FBF30 /* getopt1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = getopt1.c; sourceTree = "<group>"; };
+		FAAB053721C12C98005FBF30 /* getopt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = getopt.h; sourceTree = "<group>"; };
+		FAAB053821C12C98005FBF30 /* getopt.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = getopt.c; sourceTree = "<group>"; };
+		FAAB053921C12C98005FBF30 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		FAAB053A21C12C98005FBF30 /* fxload.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fxload.c; sourceTree = "<group>"; };
+		FAAB053B21C12C98005FBF30 /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		FAAB053C21C12C98005FBF30 /* ezusb.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ezusb.c; sourceTree = "<group>"; };
+		FAAB053D21C12C98005FBF30 /* dpfp_threaded.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = dpfp_threaded.c; sourceTree = "<group>"; };
+		FAAB053E21C12C98005FBF30 /* xusb.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = xusb.c; sourceTree = "<group>"; };
+		FAAB053F21C12C98005FBF30 /* dpfp.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = dpfp.c; sourceTree = "<group>"; };
+		FAAB054021C12C98005FBF30 /* testlibusb.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = testlibusb.c; sourceTree = "<group>"; };
+		FAAB054121C12C98005FBF30 /* hotplugtest.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = hotplugtest.c; sourceTree = "<group>"; };
+		FAAB054221C12C98005FBF30 /* listdevs.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = listdevs.c; sourceTree = "<group>"; };
+		FAAB054321C12C98005FBF30 /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		FAAB054421C12CD5005FBF30 /* LeicaCamera.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LeicaCamera.cpp; sourceTree = "<group>"; };
+		FAAB054521C12CD5005FBF30 /* LeicaCamera.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LeicaCamera.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAAB04E321C12A99005FBF30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAAB051E21C12C7B005FBF30 /* IOKit.framework in Frameworks */,
+				FAAB051C21C12C5F005FBF30 /* CoreFoundation.framework in Frameworks */,
+				FAAB051A21C12C2B005FBF30 /* libusb-1.0.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAAB04DD21C12A99005FBF30 = {
+			isa = PBXGroup;
+			children = (
+				FAAB04E821C12A9A005FBF30 /* M240PTPTool */,
+				FAAB04E721C12A9A005FBF30 /* Products */,
+				FAAB051821C12C2B005FBF30 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FAAB04E721C12A9A005FBF30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAAB04E621C12A9A005FBF30 /* M240PTPTool */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAAB04E821C12A9A005FBF30 /* M240PTPTool */ = {
+			isa = PBXGroup;
+			children = (
+				FAAB04F121C12AD8005FBF30 /* libEasyPTP */,
+				FAAB051F21C12C98005FBF30 /* libusb */,
+				FAAB054521C12CD5005FBF30 /* LeicaCamera.hpp */,
+				FAAB054421C12CD5005FBF30 /* LeicaCamera.cpp */,
+				FAAB04E921C12A9A005FBF30 /* main.cpp */,
+			);
+			path = M240PTPTool;
+			sourceTree = "<group>";
+		};
+		FAAB04F121C12AD8005FBF30 /* libEasyPTP */ = {
+			isa = PBXGroup;
+			children = (
+				FAAB04F221C12AD8005FBF30 /* INSTALL */,
+				FAAB04F321C12AD8005FBF30 /* AUTHORS */,
+				FAAB04F421C12AD8005FBF30 /* Makefile */,
+				FAAB04F521C12AD8005FBF30 /* include */,
+				FAAB050321C12AD8005FBF30 /* tests */,
+				FAAB050521C12AD8005FBF30 /* COPYING.LESSER */,
+				FAAB050621C12AD8005FBF30 /* README */,
+				FAAB050721C12AD9005FBF30 /* README.md */,
+				FAAB050821C12AD9005FBF30 /* COPYING */,
+				FAAB050921C12AD9005FBF30 /* .gitignore */,
+				FAAB050A21C12AD9005FBF30 /* lib */,
+				FAAB051121C12AD9005FBF30 /* doc */,
+			);
+			path = libEasyPTP;
+			sourceTree = "<group>";
+		};
+		FAAB04F521C12AD8005FBF30 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				FAAB04F621C12AD8005FBF30 /* libeasyptp */,
+				FAAB050221C12AD8005FBF30 /* libeasyptp.hpp */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		FAAB04F621C12AD8005FBF30 /* libeasyptp */ = {
+			isa = PBXGroup;
+			children = (
+				FAAB04F721C12AD8005FBF30 /* chdk */,
+				FAAB04FA21C12AD8005FBF30 /* PTPErrors.hpp */,
+				FAAB04FB21C12AD8005FBF30 /* CHDKCamera.hpp */,
+				FAAB04FC21C12AD8005FBF30 /* PTPBase.hpp */,
+				FAAB04FD21C12AD8005FBF30 /* PTPCamera.hpp */,
+				FAAB04FE21C12AD8005FBF30 /* LVData.hpp */,
+				FAAB04FF21C12AD8005FBF30 /* PTPContainer.hpp */,
+				FAAB050021C12AD8005FBF30 /* IPTPComm.hpp */,
+				FAAB050121C12AD8005FBF30 /* PTPUSB.hpp */,
+			);
+			path = libeasyptp;
+			sourceTree = "<group>";
+		};
+		FAAB04F721C12AD8005FBF30 /* chdk */ = {
+			isa = PBXGroup;
+			children = (
+				FAAB04F821C12AD8005FBF30 /* ptp.h */,
+				FAAB04F921C12AD8005FBF30 /* live_view.h */,
+			);
+			path = chdk;
+			sourceTree = "<group>";
+		};
+		FAAB050321C12AD8005FBF30 /* tests */ = {
+			isa = PBXGroup;
+			children = (
+				FAAB050421C12AD8005FBF30 /* main.cpp */,
+			);
+			path = tests;
+			sourceTree = "<group>";
+		};
+		FAAB050A21C12AD9005FBF30 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				FAAB050B21C12AD9005FBF30 /* LVData.cpp */,
+				FAAB050C21C12AD9005FBF30 /* PTPContainer.cpp */,
+				FAAB050D21C12AD9005FBF30 /* PTPUSB.cpp */,
+				FAAB050E21C12AD9005FBF30 /* PTPCamera.cpp */,
+				FAAB050F21C12AD9005FBF30 /* CHDKCamera.cpp */,
+				FAAB051021C12AD9005FBF30 /* PTPBase.cpp */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		FAAB051121C12AD9005FBF30 /* doc */ = {
+			isa = PBXGroup;
+			children = (
+				FAAB051221C12AD9005FBF30 /* README */,
+				FAAB051321C12AD9005FBF30 /* Doxyfile */,
+			);
+			path = doc;
+			sourceTree = "<group>";
+		};
+		FAAB051821C12C2B005FBF30 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAAB051D21C12C7B005FBF30 /* IOKit.framework */,
+				FAAB051B21C12C5F005FBF30 /* CoreFoundation.framework */,
+				FAAB051921C12C2B005FBF30 /* libusb-1.0.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FAAB051F21C12C98005FBF30 /* libusb */ = {
+			isa = PBXGroup;
+			children = (
+				FAAB052021C12C98005FBF30 /* 1.0.22 */,
+			);
+			path = libusb;
+			sourceTree = "<group>";
+		};
+		FAAB052021C12C98005FBF30 /* 1.0.22 */ = {
+			isa = PBXGroup;
+			children = (
+				FAAB052121C12C98005FBF30 /* INSTALL_RECEIPT.json */,
+				FAAB052221C12C98005FBF30 /* .brew */,
+				FAAB052421C12C98005FBF30 /* ChangeLog */,
+				FAAB052521C12C98005FBF30 /* AUTHORS */,
+				FAAB052621C12C98005FBF30 /* include */,
+				FAAB052921C12C98005FBF30 /* README */,
+				FAAB052A21C12C98005FBF30 /* TODO */,
+				FAAB052B21C12C98005FBF30 /* COPYING */,
+				FAAB052C21C12C98005FBF30 /* NEWS */,
+				FAAB052D21C12C98005FBF30 /* lib */,
+				FAAB053021C12C98005FBF30 /* share */,
+			);
+			path = 1.0.22;
+			sourceTree = "<group>";
+		};
+		FAAB052221C12C98005FBF30 /* .brew */ = {
+			isa = PBXGroup;
+			children = (
+				FAAB052321C12C98005FBF30 /* libusb.rb */,
+			);
+			path = .brew;
+			sourceTree = "<group>";
+		};
+		FAAB052621C12C98005FBF30 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				FAAB052721C12C98005FBF30 /* libusb-1.0 */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		FAAB052721C12C98005FBF30 /* libusb-1.0 */ = {
+			isa = PBXGroup;
+			children = (
+				FAAB052821C12C98005FBF30 /* libusb.h */,
+			);
+			path = "libusb-1.0";
+			sourceTree = "<group>";
+		};
+		FAAB052D21C12C98005FBF30 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				FAAB052E21C12C98005FBF30 /* libusb-1.0.0.dylib */,
+				FAAB052F21C12C98005FBF30 /* libusb-1.0.a */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		FAAB053021C12C98005FBF30 /* share */ = {
+			isa = PBXGroup;
+			children = (
+				FAAB053121C12C98005FBF30 /* libusb */,
+			);
+			path = share;
+			sourceTree = "<group>";
+		};
+		FAAB053121C12C98005FBF30 /* libusb */ = {
+			isa = PBXGroup;
+			children = (
+				FAAB053221C12C98005FBF30 /* examples */,
+			);
+			path = libusb;
+			sourceTree = "<group>";
+		};
+		FAAB053221C12C98005FBF30 /* examples */ = {
+			isa = PBXGroup;
+			children = (
+				FAAB053321C12C98005FBF30 /* sam3u_benchmark.c */,
+				FAAB053421C12C98005FBF30 /* ezusb.h */,
+				FAAB053521C12C98005FBF30 /* getopt */,
+				FAAB053921C12C98005FBF30 /* Makefile */,
+				FAAB053A21C12C98005FBF30 /* fxload.c */,
+				FAAB053B21C12C98005FBF30 /* Makefile.am */,
+				FAAB053C21C12C98005FBF30 /* ezusb.c */,
+				FAAB053D21C12C98005FBF30 /* dpfp_threaded.c */,
+				FAAB053E21C12C98005FBF30 /* xusb.c */,
+				FAAB053F21C12C98005FBF30 /* dpfp.c */,
+				FAAB054021C12C98005FBF30 /* testlibusb.c */,
+				FAAB054121C12C98005FBF30 /* hotplugtest.c */,
+				FAAB054221C12C98005FBF30 /* listdevs.c */,
+				FAAB054321C12C98005FBF30 /* Makefile.in */,
+			);
+			path = examples;
+			sourceTree = "<group>";
+		};
+		FAAB053521C12C98005FBF30 /* getopt */ = {
+			isa = PBXGroup;
+			children = (
+				FAAB053621C12C98005FBF30 /* getopt1.c */,
+				FAAB053721C12C98005FBF30 /* getopt.h */,
+				FAAB053821C12C98005FBF30 /* getopt.c */,
+			);
+			path = getopt;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAAB04E521C12A99005FBF30 /* M240PTPTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAAB04ED21C12A9A005FBF30 /* Build configuration list for PBXNativeTarget "M240PTPTool" */;
+			buildPhases = (
+				FAAB04E221C12A99005FBF30 /* Sources */,
+				FAAB04E321C12A99005FBF30 /* Frameworks */,
+				FAAB04E421C12A99005FBF30 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = M240PTPTool;
+			productName = M240PTPTool;
+			productReference = FAAB04E621C12A9A005FBF30 /* M240PTPTool */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAAB04DE21C12A99005FBF30 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Alexander Hude";
+				TargetAttributes = {
+					FAAB04E521C12A99005FBF30 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = FAAB04E121C12A99005FBF30 /* Build configuration list for PBXProject "M240PTPTool" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FAAB04DD21C12A99005FBF30;
+			productRefGroup = FAAB04E721C12A9A005FBF30 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAAB04E521C12A99005FBF30 /* M240PTPTool */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAAB04E221C12A99005FBF30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAAB051521C12AEC005FBF30 /* PTPUSB.cpp in Sources */,
+				FAAB051421C12AEC005FBF30 /* PTPContainer.cpp in Sources */,
+				FAAB051721C12AEC005FBF30 /* PTPBase.cpp in Sources */,
+				FAAB054621C12CD5005FBF30 /* LeicaCamera.cpp in Sources */,
+				FAAB04EA21C12A9A005FBF30 /* main.cpp in Sources */,
+				FAAB051621C12AEC005FBF30 /* PTPCamera.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FAAB04EB21C12A9A005FBF30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FAAB04EC21C12A9A005FBF30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FAAB04EE21C12A9A005FBF30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/M240PTPTool/libEasyPTP/include",
+					"$(PROJECT_DIR)/M240PTPTool/libusb/1.0.22/include",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/M240PTPTool/libusb/1.0.22/lib",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FAAB04EF21C12A9A005FBF30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/M240PTPTool/libEasyPTP/include",
+					"$(PROJECT_DIR)/M240PTPTool/libusb/1.0.22/include",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/M240PTPTool/libusb/1.0.22/lib",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAAB04E121C12A99005FBF30 /* Build configuration list for PBXProject "M240PTPTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAAB04EB21C12A9A005FBF30 /* Debug */,
+				FAAB04EC21C12A9A005FBF30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAAB04ED21C12A9A005FBF30 /* Build configuration list for PBXNativeTarget "M240PTPTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAAB04EE21C12A9A005FBF30 /* Debug */,
+				FAAB04EF21C12A9A005FBF30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAAB04DE21C12A99005FBF30 /* Project object */;
+}
